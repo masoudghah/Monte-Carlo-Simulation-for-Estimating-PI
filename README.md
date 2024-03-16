@@ -3,9 +3,11 @@ This Python script uses a Monte Carlo simulation to estimate the value of PI. Th
 
 ## Mathematical detail
 The area of a circle with radius $r$ is given by the formula $A = \pi  r^2$. For a circle inscribed in a square with side length $2r$, the area of the square is $(2r)^2 = 4r^2$. The ratio of the area of the circle to the area of the square is:
+
 $$
 \frac{π  r^2}{4r^2} = \frac{π}{4}
 $$
+
 This relationship is utilized in the Monte Carlo simulation to estimate the value of PI.
 
 ![Plot Image](/output.png)
